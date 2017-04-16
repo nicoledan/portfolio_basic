@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+body {
+  background: #26CCC6;
+}
+
+#content {
+  background: #fff;
+  max-width: 800px;
+  padding: 10px;
+  padding-top: 0px;
+  margin: auto;
+}
+
+img {
+  max-width: 400px;
+}
+
+headshot {
+  margin: auto;
+}
+
+row {
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  img {
+    max-width: 200px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #content {
+    max-width: 600px;
+  }
+}
